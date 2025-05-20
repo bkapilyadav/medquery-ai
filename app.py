@@ -79,13 +79,9 @@ if not st.session_state.authenticated:
                     st.error(message)
 else:
     # Main application UI
-    col1, col2 = st.columns([1, 5])
-with col1:
-    st.image("https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/medical-symbol_2695-fe0f.png", width=80)
-with col2:
-    st.markdown("<h1 style='margin-bottom: 0'>MedQuery AI</h1>", unsafe_allow_html=True)
-    st.markdown("<p style='color: #0066cc; font-size: 18px; margin-top: 0'>Advanced Healthcare Document Intelligence</p>", unsafe_allow_html=True)
+   st.title("🏥 MedQuery AI: Intelligent Medical Document Analysis")
 
+    
     # Sidebar with user info and logout
     with st.sidebar:
         st.write(f"Logged in as: **{st.session_state.username}**")
