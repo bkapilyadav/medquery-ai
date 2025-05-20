@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "username": "bkapilyadav",
+      "password_hash": "f94f002ca42b804a9c3448e8e7becf3f5f4ccc9e2231d561f4f5e9f8ca24ad4d",
+      "salt": "c42c1476d4ebb9e68c345e489c1700ce",
+      "role": "user",
+      "created_at": "2025-05-20T14:59:53.030986"
+    }
+  ]
+}
