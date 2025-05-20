@@ -79,7 +79,7 @@ if not st.session_state.authenticated:
                     st.error(message)
 else:
     # Main application UI
-   st.title("🏥 MedQuery AI: Intelligent Medical Document Analysis")
+    st.title("🏥 MedQuery AI: Intelligent Medical Document Analysis")
 
     
     # Sidebar with user info and logout
